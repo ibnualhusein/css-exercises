@@ -24,3 +24,49 @@ input {
   padding: 8px 24px;
   width: 400px;
 }
+
+/* Start of the exercise */
+
+body {
+  display: flex;
+  flex-direction: column;
+}
+
+.header, .footer {
+  display: flex;
+  justify-content: space-between;
+  align-items: start;
+
+  padding: 16px;
+}
+
+.footer {
+  background-color: #eeeeee;
+}
+
+.content {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  flex-direction: column;
+  flex: 1;
+  gap: 16px;
+}
+
+ul {
+  display: flex;
+  list-style: none;
+  display: flex;
+  margin: 0;
+  padding: 0;
+  gap: 16px;
+}
+
+a {
+  text-decoration: none;
+  color: inherit;
+}
+
+button {
+  padding: 8px 16px;
+}
